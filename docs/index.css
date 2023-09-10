@@ -548,6 +548,13 @@ li a {
 li a:hover {
   background-color: black;
 }
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
