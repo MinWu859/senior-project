@@ -562,7 +562,7 @@ tr:nth-child(even) {
 
 .bottomright {
   position: absolute;
-  bottom: -78mm;
+  bottom: -85mm;
   right: -115mm;
   font-size: 18px;
 }
