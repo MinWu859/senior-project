@@ -634,6 +634,10 @@
         text-decoration: underline;
     }
     
+   .checked {
+  color: orange;
+}
+    
     
     
     
