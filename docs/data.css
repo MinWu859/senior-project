@@ -1,0 +1,598 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+    font-family: Garamond; 
+   
+     
+    
+}
+
+ 
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://www.datanami.com/wp-content/uploads/2021/10/big_data_visualization_shutterstock_ArtHead.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+
+.text-box {
+    width: 90%;
+    color:  #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+    
+}
+ .text-box h1 {
+    font-size: 62px;
+     
+}
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 23px;
+    color: #fff;
+}
+
+.click-box{
+    display:inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position:relative;
+    cursor: pointer;
+     
+}
+
+.click-box:hover{
+    border:1px solid #f44336;
+    transition: 1s;
+}
+nav .fa{
+    display:none;
+}
+
+ @media(max-width: 700px){
+     .text-box h1 {
+    font-size: 70px;
+    }
+    .nav-links ul li{
+        display: block;
+        
+    }
+    .nav-links {
+        position:absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+ }
+/*--------Travel----------*/
+
+.travel{
+    width: 90%;
+    margin: auto;
+    text-align:center;
+    padding-top: 100px;
+    
+}
+h1{
+    font-size:40px;
+    font-weight:600;
+    
+}
+p{
+   color: #777; 
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 22px;
+   padding: 30px;
+    
+}
+
+.row{
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+  
+    
+}
+.happy{
+    flex-basis:31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s
+}
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.happy:hover{
+     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.places{
+    width: 80%;
+    margin: auto;
+    text-align:center;
+    padding-top: 50px; 
+}
+
+.places-col{
+
+    flex-basis: 20%;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.places-col img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+
+.layer{
+   background: transparent;
+   width:100%;
+   height:100%;
+   position:absolute;
+   top: 0;
+   left: 0px;
+   transition: 0.5s;
+}
+.layer:hover{
+   background: rgba(167, 210, 241, 0.44);   
+}
+.layer h3{
+    width: 90%;
+    font-weight:500;
+    color: #fff;
+    font-size: 20px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+.footer{
+    width:100%;
+    text-align:center;
+    padding: 30px 0;
+    
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    
+}
+.icon .fa{
+color: #f44336;
+margin: 0 13px;
+cursor: pointer;
+padding: 18px 0;
+    
+}
+.fa-heart-o{
+  color: #f44336;  
+}
+
+
+
+.myresume.htmlheader{
+    min-height: 100vh;
+    width: 100%;
+    background-image:
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://devmyresume.com/career-advice/wp-content/uploads/2019/01/Video_Resume_Tips.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.gallerytext-box {
+    width: 100%;
+    color:  #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.gallerytext-box h1 {
+    font-size: 62px;
+}
+
+.nostalgia{
+    width: 90%;
+    margin: auto;
+    text-align:center;
+    padding-top: 100px;
+
+}
+
+h2{
+    font-size:32px;
+    font-weight:600;
+    
+}
+
+
+
+.gi{
+
+ 
+    margin-bottom: 100px;
+    margin-left: 35%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.gi img{
+   
+    height:400px;
+    padding: 50px;
+    display: block;
+}
+
+
+
+.essaysheader{
+    min-height: 100vh;
+    width: 100%;
+    background-image:
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/heavenstairs.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+ }
+
+
+
+.reflectionessay p {
+margin: 40px 12px 40px;
+    font-size: 25px;
+    text-align:center
+     
+}
+
+.resumeheader{
+    min-height: 100vh;
+    width: 100%;
+    background-image:
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/rotorua.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.resumetext-box {
+    width: 90%;
+    color:  #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+    
+}
+ .resumetext-box h1 {
+    font-size: 62px;
+     
+}
+
+.resume{
+    padding: 50px;
+     width: 90%;
+    margin: auto;
+    text-align:center;
+    padding-top: 80px;
+
+}
+
+.resume h1{
+    font-size:32px;
+    font-weight:600;
+    padding-bottom: 30px;
+
+}
+
+.container {
+    
+    width:560px;
+    height:315px;
+    margin:auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.textanalysistable,td {
+   width: 180px;
+   margin: auto;
+   font-size: 20px;
+   text-align: center;
+   padding: 5px;
+   border:2px solid #000;
+   border-collapse: collapse;
+   
+    
+}
+
+.ngramfor154{
+    height: 20%;
+    width: 20px;
+   
+}
+
+.TAcolumn {
+  float: left;
+  width: 45%;
+  padding: 5px;
+  padding-left: 25px;
+  
+    
+}
+
+.TArow {
+    content: "";
+    display: table;
+    clear: both;
+    text-align:center;
+    margin: 50px;
+    
+}
+
+.mrcolumn {
+  float: left;
+  width: 45%;
+  padding: 20px;
+  
+  
+    
+}
+
+.mrrow {
+    content: "";
+    display: table;
+    margin-left: 17%;
+    
+ }
+
+.ngram{
+    margin: 50px;
+}
+
+.TAP {
+    text-align:center;
+    margin: 50px;
+    font-size: 20pt;
+    color: #000;
+}
+
+
+.links {
+    text-align:center;
+}
+
+.gameanalysisheader{
+    min-height: 100vh;
+    width: 100%;
+    background-image:
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.gameanalysistext-box {
+    width: 90%;
+    color:  #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+    
+}
+ .gameanalysistext-box h1 {
+    font-size: 62px;
+
+}
+
+.kumu{
+    margin:auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 170px;
+ 
+}
+
+.kumutitle{
+    padding-left: 30px;
+    color: #395E18;
+}
+
+.GAtextborder{
+    border-left: 1em solid #F3B934;
+    padding-left: 0.5em;
+    margin-top: 1em;
+    font-size: 25px;
+       
+}
+
+.GAthreecolumn {
+  float: left;
+  width: 33.33%;
+  padding: 70px;
+  
+}
+
+
+.GAthreerow {
+ 
+  clear: both;
+  display: flex;
+  
+}
+.GAtwocolumn {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  
+  
+}
+
+
+.GAtworow {
+ 
+  clear: both;
+  display: flex;
+  padding-right: 200px;
+  
+}
+
+.GAfourcolumn {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  
+  
+}
+
+
+.GAfourrow {
+ 
+  clear: both;
+  display: flex;
+  padding-left: 38px;
+  
+  
+}
+
+    
+ .gaimagepadding{
+     
+    margin-bottom: 100px;
+    margin-left: 550px;
+    position: relative;
+    overflow: hidden;  
+ }   
+ 
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: black;
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.container {
+  position: relative;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: -85mm;
+  right: -115mm;
+  font-size: 18px;
+}
+
+.p {
+  font-family: Lucida Bright;
+}
+
+#content {
+    padding: 40px;
+    height: 100%;
+    margin: 20px;
+}
+#goal {
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-size: 21px;
+}
+
+.sep {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;  
+    background-color: #DCE7F1;
+    padding: 30px 10px;
+}
+
+
+
+
+
+    
