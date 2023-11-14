@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Creative Image and Text</title>
+        <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: url('data4.jpg') center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.9); /* Adding opacity to the background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            overflow: hidden;
+            padding: 20px;
+            border-bottom: 2px solid #FF4081; /* More visible line color */
+        }
+
+        .section img {
+            float: right;
+            width: 50%;
+            box-sizing: border-box;
+            padding: 0 20px;
+            border-radius: 8px;
+        }
+
+        .section .text {
+            float: left;
+            width: 50%;
+            box-sizing: border-box;
+            padding: 0 20px;
+        }
+
+        .section:nth-child(even) img,
+        .section:nth-child(even) .text {
+            float: left;
+        }
+
+        h2 {
+            color: #FF4081;
+        }
+          h1 {
+                color: black;
+                
+            }
+
+        p {
+            color: black;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+    </head>
+    <body>
+        <center><h1>Products Recommendation Graphs</h1></center> 
+        <div class="container">
+            <div class="section">
+                <img src="your-image-url1.jpg" alt="Your Image 1">
+                <div class="text">
+                   
+                    <p>Your text goes here.</p>
+                </div>
+            </div>
+            <div class="section">
+                <img src="your-image-url2.jpg" alt="Your Image 2">
+                <div class="text">
+                  
+                    <p>Your text goes here.</p>
+                </div>
+            </div>
+            <div class="section">
+                <img src="your-image-url3.jpg" alt="Your Image 3">
+                <div class="text">
+                   
+                    <p>Your text goes here.</p>
+                </div>
+            </div>
+            <div class="section">
+                <img src="your-image-url4.jpg" alt="Your Image 4">
+                <div class="text">
+                
+                    <p>Your text goes here.</p>
+                </div>
+            </div>
+            <div class="section">
+                <img src="your-image-url5.jpg" alt="Your Image 5">
+                <div class="text">
+                   
+                    <p>Your text goes here.</p>
+                </div>
+            </div>
+            <div class="section">
+                <img src="your-image-url6.jpg" alt="Your Image 6">
+                <div class="text">
+                  
+                    <p>Your text goes here.</p>
+                </div>
+            </div>
+            <!-- Add more sections as needed -->
+        </div>
+        <center>
+            <form>
+                <h2><input type="button"
+                    value="Go Back"
+                    onclick="history.back()"></h2>
+            </form>
+        </center> 
+    </body>
+</html>
