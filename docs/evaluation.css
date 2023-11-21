@@ -643,7 +643,16 @@ mark {
 }
     
     
-    
+  img {
+    max-width:100%;
+    height:auto;
+}
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #b8a9c9;
+  color: white;
+}
     
     
     

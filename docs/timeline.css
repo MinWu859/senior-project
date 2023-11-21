@@ -743,3 +743,8 @@ img {max-width: 100%;}
   .timeline-box-wrap .timeline-content img {max-width: 100%;}
   .timeline-box.img-right .timeline-content img, .timeline-box.img-left .timeline-content img {max-width: 100%; max-height: unset;}
 }
+
+img {
+    max-width:100%;
+    height:auto;
+}
