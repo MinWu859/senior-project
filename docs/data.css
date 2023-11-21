@@ -17,7 +17,7 @@ body{
     background-image:
     linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://www.datanami.com/wp-content/uploads/2021/10/big_data_visualization_shutterstock_ArtHead.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     position: relative;
     
 }
@@ -595,6 +595,7 @@ img {
     max-width:100%;
     height:auto;
 }
+
 
 
 

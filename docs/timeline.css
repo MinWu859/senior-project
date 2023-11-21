@@ -17,7 +17,7 @@ body{
     background-image:
     linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://www.mymed.com/image/2896/MedicalArticle/300);
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     position: relative;
     
 }

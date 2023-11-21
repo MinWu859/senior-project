@@ -17,7 +17,7 @@
         background-image:
         linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://hr.uw.edu/cfd/wp-content/uploads/sites/19/2023/06/1656468896327_now_tonight_mba_period_stigma_220628_1920x1080-4v15wb-750x422.jpg);
         background-position: center;
-        background-size: cover;
+        background-size: 100% 100%;
         position: relative;
         
     }
