@@ -3,10 +3,7 @@ margin:0;
 padding:0;
 }
 body{
-    font-family: Helvetica; 
-   
-     
-    
+    font-family: Helvetica;    
 }
 
  
@@ -100,13 +97,14 @@ nav .fa{
 .travel{
     width: 90%;
     margin: auto;
-    text-align:center;
+
     padding-top: 100px;
     
 }
 h1{
     font-size:40px;
     font-weight:600;
+    text-align: center;
     
 }
 p{
