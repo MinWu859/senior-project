@@ -1,0 +1,53 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('b.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#svg-container{
+  width: 65%;
+  border-radius: 8px;
+}
+#text-container {
+  width: 30%;
+  box-sizing: border-box;
+  background-color: rgb(239, 176, 214);
+  border-radius: 8px;
+  height: auto;
+}
+
+#svg-container {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+/* Add any styles you need for your SVG and squares here */
+svg {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+rect {
+  cursor: pointer;
+  stroke: rgb(239, 176, 214);
+  stroke-width: 3px;
+}
+
+rect:hover {
+  stroke-width: 3px;
+  stroke: aqua;
+  
+}
+
+
+
+section {
+  display: none;
+}
