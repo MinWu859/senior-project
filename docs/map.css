@@ -1,3 +1,26 @@
+h2 {
+  color: white; /* Change the color as needed */
+  font-family: verdana;
+  font-size: 300%;
+  text-align: center;
+  position: absolute;
+  top: 20px; /* Adjust the distance from the top as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+h3 {
+  color: white; /* Change the color as needed */
+  font-family: verdana;
+  font-size: 300%;
+  text-align: center;
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the top as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
 
 body {
   display: flex;

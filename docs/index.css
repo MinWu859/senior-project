@@ -6,7 +6,17 @@ body{
     font-family: Helvetica;    
 }
 
- 
+.centered-text {
+    text-align: center; /* Center the text horizontally */
+    /* Add any other styles you need */
+}
+
+.centered-image {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 90vh; /* Adjust the height as needed */
+}
 
 .header{
     min-height: 100vh;

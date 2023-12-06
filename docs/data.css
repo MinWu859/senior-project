@@ -118,6 +118,11 @@ p{
     
 }
 
+.aligned-text {
+    text-align: center; /* You can use "left", "center", "right", or "justify" */
+    /* Add any other styles you need */
+}
+
 .row{
    margin-top: 5%;
    display: flex;
@@ -569,12 +574,14 @@ tr:nth-child(even) {
 
 .p {
   font-family: Lucida Bright;
+  text-align: left;
 }
 
 #content {
-    padding: 40px;
-    height: 100%;
-    margin: 20px;
+text-align: left;
+    padding: 15px;
+    height: 90%;
+    margin: 10px;
 }
 #goal {
     text-align: center;
@@ -584,16 +591,21 @@ tr:nth-child(even) {
 }
 
 .sep {
+text-align: center;
     border-top-style: solid;
     border-bottom-style: solid;
     border-bottom-width: 1px;  
     background-color: #DCE7F1;
-    padding: 30px 10px;
+    padding: 25px 15px;
 }
 
 img {
     max-width:100%;
     height:auto;
+}
+
+h1 {
+    padding: 10px 10px;
 }
 
 
